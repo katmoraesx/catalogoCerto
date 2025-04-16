@@ -1,0 +1,59 @@
+.conteiner {
+    height: 400px;
+    background: linear-gradient(to right, black, #5b21b6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.playButton, .infoButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.playButton {
+    background-color: #9333ea;
+    color: white;
+}
+
+.infoButton {
+    background-color: gray;
+    color: white;
+}
+
+.playButton:hover {
+    background-color: #7e22ce;
+}
+
+.infoButton:hover {
+    background-color: darkgray;
+}

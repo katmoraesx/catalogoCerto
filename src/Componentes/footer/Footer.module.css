@@ -1,0 +1,21 @@
+.conteiner {
+  background-color: black;
+  color: gray;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.links {
+  margin-top: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,22 @@
+.container {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titulo {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #9333ea;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .perfis {
+    display: flex;
+    gap: 2rem;
+  }
+  

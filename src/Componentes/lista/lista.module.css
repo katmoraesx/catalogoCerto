@@ -1,0 +1,9 @@
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    background-color: #181818;
+    padding: 2rem;
+  }
+    

@@ -1,0 +1,71 @@
+.conteiner {
+    background-color: #0f0f0f;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #a855f7;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 16px;
+    list-style: none;
+  }
+  
+  .menu li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .menu li:hover {
+    color: #a855f7;
+  }
+  
+  .campo-busca {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    background-color: #1e1e1e;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .campo-busca:focus {
+    box-shadow: 0 0 0 2px #9333ea;
+  }
+  
+  .botao-buscar {
+    padding: 8px 14px;
+    margin-left: 8px;
+    background-color: #9333ea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .botao-buscar:hover {
+    background-color: #7e22ce;
+    transform: scale(1.05);
+  }
+  

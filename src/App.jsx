@@ -6,7 +6,8 @@ import { Cabecalho } from "./Componentes/Cabecalho/Cabecalho";
 import Content from "./Componentes/conteudo/Conteudo";
 import { BarraNavegacao } from "./Componentes/barraNav/BarraNavegacao";
 import { Footer } from "./Componentes/footer/Footer";
-import Perfis from "./Componentes/perfis/Perfis"; // Novo componente de perfis
+import Perfis from "./Componentes/perfis/Perfis";
+import Series from "./Componentes/Series/Series"; // Página de séries
 
 function App() {
   const [termoBusca, setTermoBusca] = useState("");
@@ -18,7 +19,7 @@ function App() {
         {/* Página inicial com os perfis */}
         <Route path="/" element={<Perfis />} />
 
-        {/* Página principal com filmes/séries */}
+        {/* Página principal com filmes */}
         <Route
           path="/home"
           element={
@@ -26,6 +27,19 @@ function App() {
               <BarraNavegacao aoBuscar={setTermoBusca} />
               <Cabecalho />
               <Content termoBusca={termoBusca} />
+              <Footer />
+            </>
+          }
+        />
+
+        {/* Página de séries */}
+        <Route
+          path="/series"
+          element={
+            <>
+              <BarraNavegacao aoBuscar={setTermoBusca} />
+              <Cabecalho />
+              <Series termoBusca={termoBusca} />
               <Footer />
             </>
           }

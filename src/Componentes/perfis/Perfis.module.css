@@ -1,22 +1,24 @@
 .container {
-    background-color: black;
-    color: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .titulo {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #9333ea;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .perfis {
-    display: flex;
-    gap: 2rem;
-  }
-  
+  background-color: #000;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.titulo {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.perfis {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}

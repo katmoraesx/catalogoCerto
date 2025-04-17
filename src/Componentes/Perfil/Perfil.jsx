@@ -6,7 +6,7 @@ export default function Perfil({ nome, imagem }) {
   const navigate = useNavigate();
 
   const entrar = () => {
-    navigate("/home"); // redireciona para a home da plataforma
+    navigate("/home");
   };
 
   return (

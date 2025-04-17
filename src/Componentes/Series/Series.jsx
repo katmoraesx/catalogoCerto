@@ -7,7 +7,7 @@ import DescricaoFilme from "../descricao/DescricaoFilme";
 const API_key = 'af26cce282aecf5c6cc39a264f29d0a7';
 const API_URL = 'https://api.themoviedb.org/3';
 
-export function Serie() {
+export default function Series() { 
   const [series, setSeries] = useState([]);
   const [serieSelecionada, setSerieSelecionada] = useState(null);
 

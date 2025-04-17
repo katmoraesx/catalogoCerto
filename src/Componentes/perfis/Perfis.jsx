@@ -4,10 +4,10 @@ import estilos from './Perfis.module.css';
 
 export default function Perfis() {
   const perfis = [
-    { id: 1, nome: "Kat", imagem: "/" },
-    { id: 2, nome: "Mi", imagem: "/imgs/leo.png" },
-    { id: 3, nome: "Duda", imagem: "/imgs/clara.png" },
-    { id: 4, nome: "Pam", imagem: "/imgs/guest.png" },
+    { id: 1, nome: "Kat", imagem: "/imgs/moana.jpeg" },
+    { id: 2, nome: "Mi", imagem: "/imgs/emily.jpeg" },
+    { id: 3, nome: "Duda", imagem: "/imgs/duda.PNG" },
+    { id: 4, nome: "Pam", imagem: "/imgs/pam.jpeg" },
   ];
 
   return (

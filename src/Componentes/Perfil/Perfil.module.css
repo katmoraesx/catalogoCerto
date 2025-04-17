@@ -1,27 +1,34 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: scale(1.1);
-  }
-  
-  .imagem {
-    width: 120px;
-    height: 120px;
-    border-radius: 10px;
-    object-fit: cover;
-    border: 3px solid #9333ea;
-  }
-  
-  .nome {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #ccc;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.08);
+}
+
+.imagem {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 3px solid transparent;
+  box-shadow: 0 0 10px #9333ea;
+}
+
+.card:hover .imagem {
+  border-color: #9333ea;
+  box-shadow: 0 0 15px #9333ea;
+}
+
+.nome {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ccc;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Inter', sans-serif;
+}
